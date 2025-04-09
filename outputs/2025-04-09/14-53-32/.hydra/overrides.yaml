@@ -1,0 +1,9 @@
+- model=pythia28
+- datasets=[hh]
+- loss=sft
+- exp_name=dummy_test
+- gradient_accumulation_steps=2
+- batch_size=4
+- eval_batch_size=2
+- trainer=FSDPTrainer
+- sample_during_eval=false
